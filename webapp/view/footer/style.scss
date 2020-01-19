@@ -1,0 +1,196 @@
+.fcut {
+    height: 74px;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, .85);
+    height: 74px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 1010;
+    text-align: center;
+    box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+
+    a {
+        display: inline-block;
+        width: 183px;
+        text-align: center;
+        border-right: 1px solid #dadbdc;
+        padding-top: 48px;
+        transition: all .4s ease;
+        color: #666666;
+        font-size: 12px;
+        background-repeat: no-repeat;
+        background-position: center 10px;
+        height: 74px;
+        position: relative;
+        text-decoration: none;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
+    .activeLink {
+        color: #ffffff;
+        font-weight: bold;
+        background-color: #d43235;
+
+        &.item1 {
+            background-image: url(./images/ficon00.png);
+        }
+
+        &.item2 {
+            background-image: url(./images/ficon11.png);
+        }
+
+        &.item3 {
+            background-image: url(./images/ficon22.png);
+        }
+
+        &.item4 {
+            background-image: url(./images/ficon33.png);
+        }
+
+        &.item5 {
+            background-image: url(./images/ficon44.png);
+        }
+
+        &.item6 {
+            background-image: url(./images/ficon55.png);
+        }
+
+        &.item7 {
+            background-image: url(./images/ficon66.png);
+        }
+    }
+
+    .item1 {
+        background-image: url(./images/ficon0.png);
+    }
+
+    .item2 {
+        background-image: url(./images/ficon1.png);
+    }
+
+    .item3 {
+        background-image: url(./images/ficon2.png);
+    }
+
+    .item4 {
+        background-image: url(./images/ficon3.png);
+    }
+
+    .item5 {
+        background-image: url(./images/ficon4.png);
+    }
+
+    .item6 {
+        background-image: url(./images/ficon5.png);
+    }
+
+    .item7 {
+        background-image: url(./images/ficon6.png);
+    }
+
+    .item1:hover {
+        background-image: url(./images/ficon00.png);
+    }
+
+    .item2:hover {
+        background-image: url(./images/ficon11.png);
+    }
+
+    .item3:hover {
+        background-image: url(./images/ficon22.png);
+    }
+
+    .item4:hover {
+        background-image: url(./images/ficon33.png);
+    }
+
+    .item5:hover {
+        background-image: url(./images/ficon44.png);
+    }
+
+    .item5:hover .code_show {
+        display: block;
+    }
+
+    .item6:hover {
+        background-image: url(./images/ficon55.png);
+    }
+
+    .item6:hover .cart_show {
+        display: block;
+    }
+
+    .item7:hover {
+        background-image: url(./images/ficon66.png);
+    }
+
+    a:first-child {
+        border-left: 1px solid #dadbdc;
+    }
+
+    a:hover {
+        background-color: #d43235;
+        color: #fff;
+    }
+
+
+    .code_show {
+        background-color: rgba(255, 255, 255, .9);
+        width: 410px;
+        height: 220px;
+        bottom: 75px;
+        left: 50%;
+        margin-left: -205px;
+        position: absolute;
+        padding-top: 35px;
+        display: none;
+        padding-left: 50px;
+
+        .code {
+            float: left;
+
+            &+.code {
+                margin-left: 54px;
+            }
+
+            img {
+                width: 126px;
+                height: 126px;
+                display: block;
+            }
+
+            p {
+                text-align: center;
+                font-size: 14px;
+                color: #666666;
+                margin-top: 14px;
+            }
+        }
+    }
+
+    .cart_show {
+        position: absolute;
+        bottom: 75px;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+        height: 74px;
+        text-align: center;
+        line-height: 74px;
+        display: none;
+    }
+
+    .cart_show img {
+        display: inline-block;
+        margin: 0 18px;
+    }
+}

@@ -1,0 +1,12 @@
+.idea/
+node_modules/
+dist/assets/
+dist/passets/
+dist/index.html
+dev/assets/
+dev/passets/
+dev/index.html
+etc/
+devconfig.json
+npm-debug.log
+*/.DS_Store

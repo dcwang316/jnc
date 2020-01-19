@@ -1,0 +1,116 @@
+.mainindex>.swiper-wrapper {
+    height: 100%;
+}
+
+.mainindex>.swiper-wrapper>.swiper-slide {
+    height: 100%;
+}
+
+.bannerwrap {
+    height: 100%;
+    position: relative;
+}
+
+.bannerwrap>.swiper-wrapper {
+    height: 100%;
+}
+
+.bannerwrap>.swiper-wrapper>.swiper-slide {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 100%; */
+    background-position: center;
+    text-align: center;
+}
+
+.bannerwrap .swiper-pagination-bullet {
+    background-color: transparent;
+    opacity: 1;
+    width: 18px;
+    height: 18px;
+    border: 3px solid #fff;
+    transition: all .2s ease;
+}
+
+.bannerwrap.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 8px;
+}
+
+.bannerwrap .swiper-pagination-bullet-active {
+    background-color: #d43235;
+    border: 3px solid #d43235;
+}
+
+/* .bannerwrap>.swiper-wrapper>.swiper-slide img {
+    width: 100%;
+    height: 100%;
+} */
+
+.firstopen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2099;
+}
+
+.firstopen img {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    transition: all 2.5s ease .8s;
+    width: 50%;
+}
+
+.firstopen .leftimg {
+    right: 50%;
+}
+
+.firstopen .rightimg {
+    left: 50%;
+}
+
+.firstopen.active .leftimg {
+    right: 100%;
+}
+
+.firstopen.active .rightimg {
+    left: 100%;
+}
+
+.mbox_wrap3 {
+    position: relative;
+}
+
+.index_f {
+    position: absolute;
+    bottom: 65px;
+    width: 100%;
+    left: 0;
+    z-index: 9;
+}
+
+.mainindex .ant-spin-nested-loading,
+.mainindex .ant-spin-container {
+    height: 100%;
+}
+
+.loadingPanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    height: 100%;
+    z-index: 1000000;
+    text-align: center;
+}
+
+.loadingPanel img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

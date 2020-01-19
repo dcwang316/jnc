@@ -1,0 +1,89 @@
+.product_center {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+
+    .subbanner img {
+        width: 100%;
+        // max-height: 350px;
+    }
+
+    .wrap {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+body {
+    background-image: url(./images/nbg.png);
+    background-repeat: repeat;
+}
+
+.content {
+    overflow: hidden;
+    padding-left: 70px;
+
+    .name {
+        color: #333333;
+        font-size: 48px;
+        line-height: 1.2;
+        margin-bottom: 36px;
+    }
+
+    .brief {
+        color: #333333;
+        font-size: 16px;
+        line-height: 1.7;
+        margin-bottom: 42px;
+    }
+
+    .sign li {
+        color: #333333;
+        font-size: 16px;
+        margin-bottom: 32px;
+
+        span {
+            display: inline-block;
+            width: 106px;
+        }
+    }
+
+    .buybtn {
+        display: block;
+        width: 170px;
+        height: 60px;
+        padding: 3px;
+        border: 1px solid #e94953;
+        border-radius: 2px;
+        text-decoration: none;
+
+        span {
+            display: inline-block;
+            width: 162px;
+            height: 52px;
+            line-height: 52px;
+            text-align: center;
+            display: block;
+            background-color: #d43235;
+            color: #fff;
+            font-size: 16px;
+            transition: all .3s ease;
+        }
+
+        &:hover span {
+            background-color: #cc0000;
+        }
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .content {
+        padding-left: 40px;
+
+        .name {
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,202 @@
+.service_support {
+    padding: 74px 20px 10px;
+
+    .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .title {
+        text-align: center;
+        color: #c0494b;
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+
+    .subtitle {
+        text-align: center;
+        color: #535353;
+        font-size: 36px;
+        margin-bottom: 45px;
+    }
+
+    .sbox1 {
+        padding-bottom: 50px;
+
+        .list {
+            margin: 0 -65px;
+
+            li {
+                float: left;
+                width: 33.3%;
+                padding: 0 65px;
+
+                .pic {
+                    width: 300px;
+                    height: 300px;
+                    margin: 0 auto 36px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                        box-shadow: 0px 0px 10px 0px rgba(181, 181, 181, .6);
+                    }
+                }
+
+                .tt1 {
+                    text-align: center;
+                    color: #333333;
+                    font-size: 24px;
+                    margin-bottom: 15px;
+                }
+
+                .state {
+                    color: #555555;
+                    font-size: 14px;
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+
+    .sbox2 {
+        margin-bottom: 75px;
+
+        .stabs {
+            margin-bottom: 30px;
+            padding: 0 20px;
+
+            .item {
+                float: left;
+                color: #555555;
+                font-size: 16px;
+                line-height: 1.8;
+                position: relative;
+                padding-right: 78px;
+                cursor: pointer;
+
+                &:last-child {
+                    padding-right: 0;
+                }
+
+                &.cur {
+                    color: #d64545;
+                    font-weight: bold;
+                }
+
+                &:not(:last-child)::after {
+                    content: "";
+                    position: absolute;
+                    right: 18px;
+                    top: 15px;
+                    width: 64px;
+                    height: 2px;
+                    background-image: url(./images/line.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+        }
+
+        .swrap {
+            min-height: 420px;
+            background-color: #fff;
+            padding: 80px 70px;
+            display: flex;
+            align-items: center;
+
+            .sbox {
+                display: none;
+                width: 100%;
+            }
+
+            .sbox.open {
+                display: flex;
+            }
+
+            .pic {
+                width: 50%;
+                text-align: center;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .txts {
+                width: 50%;
+                padding-left: 70px;
+
+                .tt1 {
+                    color: #cc3333;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+
+                .tt2 {
+                    color: #d64545;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+                }
+
+                .state {
+                    color: #333333;
+                    font-size: 18px;
+                    line-height: 1.9;
+                }
+            }
+        }
+    }
+
+    .sbox3 {
+        margin-bottom: 106px;
+
+        .img img {
+            width: 100%;
+            box-shadow: 0px 10px 10px 0px rgba(181, 181, 181, .6);
+        }
+    }
+
+    .sbox4 {
+        .list {
+            margin: 0 -20px;
+
+            li {
+                float: left;
+                width: 50%;
+                margin-bottom: 46px;
+                padding: 0 20px;
+
+                .ww {
+                    background-color: #fff;
+                    border-left: 6px solid #dfd0b7;
+                    padding: 38px 32px 36px;
+                }
+
+                .tt1 {
+                    color: #1c1c1c;
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+
+                .tt2 {
+                    color: #1c1c1c;
+                    font-size: 16px;
+                    height: 40px;
+                    overflow: hidden;
+
+                    span {
+                        color: #e40000;
+                        font-weight: bold;
+
+                        a {
+                            color: #e40000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

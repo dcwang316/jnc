@@ -1,0 +1,142 @@
+.brewing {
+    padding: 72px 20px 0;
+    overflow: hidden;
+}
+
+.brewing .title {
+    text-align: center;
+    font-size: 36px;
+    color: #c0494b;
+    margin-bottom: 76px;
+}
+
+.brewing .wrap {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.brewing .list {
+    margin: 0 -30px;
+}
+
+.brewing .list li {
+    padding: 0 30px;
+    margin-bottom: 85px;
+    float: left;
+    width: 50%;
+}
+
+.brewing .list li .pic {
+    overflow: hidden;
+    position: relative;
+}
+
+.brewing .list li .pic img {
+    width: 100%;
+    transition: all ease .6s;
+}
+
+.brewing .list li .ww:hover .pic img {
+    transform: scale(1.1);
+}
+
+.brewing .list li .name {
+    position: absolute;
+    bottom: 28px;
+    width: 100%;
+    left: 0;
+    background-image: url(./images/hua2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    z-index: 9;
+    font-size: 30px;
+    color: #fff;
+}
+
+.brewing .list li .txts {
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.8;
+    padding-top: 38px;
+}
+
+.brewing .list li .txts span {
+    font-weight: bold;
+}
+
+.brewing .bigitem {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.brewing .bigitem .pic {
+    overflow: hidden;
+    position: relative;
+}
+
+.brewing .bigitem .pic img {
+    width: 100%;
+    transition: all ease .5s;
+}
+
+.brewing .bigitem .txts {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 472px;
+    background-color: rgba(87, 57, 36, .4);
+    padding: 20px 70px;
+}
+
+.brewing .bigitem .ww {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+.brewing .bigitem .name {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-image: url(./images/hua3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65px;
+    line-height: 65px;
+}
+
+.brewing .bigitem .state {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.brewing .bigitem:hover .pic img {
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1640px) {
+    .brewing .wrap {
+        max-width: 1400px;
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .brewing .wrap {
+        max-width: 1300px;
+    }
+}
+@media screen and (max-width: 1480px) {
+    .brewing .wrap {
+        max-width: 1200px;
+    }
+}

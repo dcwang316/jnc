@@ -1,0 +1,190 @@
+.timebrand {
+
+    .tbox1 {
+        padding: 70px 20px 616px;
+        background-image: url(./images/tbg1.png);
+        background-repeat: no-repeat;
+        background-size: auto 926px;
+        background-position: center bottom;
+
+        .title {
+            text-align: center;
+            color: #c0494b;
+            font-size: 36px;
+            margin-bottom: 24px;
+        }
+
+        .tt {
+            text-align: center;
+            font-size: 24px;
+            color: #303030;
+            margin-bottom: 20px;
+        }
+
+        .brief {
+            text-align: center;
+            color: #333333;
+            font-size: 16px;
+            line-height: 1.7;
+            max-width: 1112px;
+            margin: 0 auto;
+        }
+    }
+
+    .tbox2 {
+        background: url(./images/tbg2.png) no-repeat center;
+        background-size: cover;
+        padding: 188px 0 226px;
+
+        .wrap {
+            max-width: 924px;
+            margin: 0 auto;
+        }
+
+        .title {
+            text-align: center;
+            color: #fff;
+            font-size: 40px;
+            margin-bottom: 90px;
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 78px;
+
+            li {
+                .t1 {
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 4px;
+                }
+
+                .num {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .nn {
+                    color: #ffffff;
+                    font-size: 48px;
+                    display: inline-block;
+                    margin-right: 6px;
+                }
+
+                .ts {
+                    color: #fff;
+                    font-size: 18px;
+                }
+
+                .none {
+                    color: transparent;
+                }
+            }
+        }
+
+        .state {
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+    }
+
+    .tbox3 {
+        padding: 75px 20px 60px;
+        width: 100%;
+        overflow: hidden;
+
+        .wrap {
+            max-width: 1306px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .bg1 {
+            position: absolute;
+            left: -226px;
+            top: 100px;
+            z-index: 1;
+        }
+
+        .bg2 {
+            position: absolute;
+            right: -183px;
+            top: 210px;
+            z-index: 1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 9;
+        }
+
+        .list {
+            display: flex;
+            align-items: stretch;
+        }
+
+        .txts {
+            width: 50%;
+            background-color: #fff;
+            padding: 42px 38px;
+
+            .tt {
+                color: #c0494b;
+                font-size: 36px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .state {
+                color: #333333;
+                font-size: 16px;
+                line-height: 1.7;
+            }
+        }
+
+        .img {
+            width: 50%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .txts2 {
+            padding-left: 80px;
+        }
+
+        .img2 {
+            background-color: #dedad1;
+            width: 50%;
+            position: relative;
+
+            img {
+                position: absolute;
+                width: 636px;
+                height: 241px;
+                right: -76px;
+                top: 40px;
+            }
+
+            .wz {
+                color: #887a69;
+                font-size: 20px;
+                position: absolute;
+                width: 100%;
+                left: 0;
+                bottom: 24px;
+                padding: 0 38px;
+
+                span {
+                    display: inline-block;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+}
