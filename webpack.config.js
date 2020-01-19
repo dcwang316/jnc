@@ -27,7 +27,7 @@ let config = {
     },
 
     output: {
-        publicPath: `/passets/`,
+        publicPath: `/jnc/passets/`,
         // publicPath: `${ROUTE_PREFIX}/passets/`,
         path: path.resolve(__dirname, `./${targ}/passets`),
         filename: isPrd ? '[name].[chunkhash].js' : '[name].js'
