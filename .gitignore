@@ -1,8 +1,5 @@
 .idea/
 node_modules/
-dist/assets/
-dist/passets/
-dist/index.html
 dev/assets/
 dev/passets/
 dev/index.html
